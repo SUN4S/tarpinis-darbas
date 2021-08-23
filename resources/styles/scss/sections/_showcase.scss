@@ -1,0 +1,32 @@
+.showcase {
+  @include flex-center;
+  flex-wrap: wrap;
+  flex-direction: column;
+
+  .row {
+    width: 100%;
+    display: flex;
+
+    .img {
+      width: 50%;
+      height: 50vh;
+    }
+
+    .box {
+      @include flex-center;
+      width: 50%;
+    }
+
+    .txt{ 
+      width: 80%;
+
+      h2 {
+        padding: 1rem 0;
+      }
+
+      p {
+        text-align: justify;
+      }
+    }
+  }
+}

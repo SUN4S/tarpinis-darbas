@@ -1,0 +1,6 @@
+.icons {
+  @include flex-center;
+  background-color: $secondary;
+  width: 100%;
+  justify-content: space-around;
+}

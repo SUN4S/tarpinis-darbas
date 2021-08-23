@@ -1,0 +1,21 @@
+// Importing mixins and custom fonts and colors
+@import "./components/mixins";
+@import "./components/custom";
+
+//Importing components
+@import "./components/button";
+@import "./components/images";
+@import "./components/input";
+@import "./components/icon";
+
+//Importing page sections
+@import "./sections/header";
+@import "./sections/topSignUp";
+@import "./sections/banner";
+@import "./sections/showcase";
+@import "./sections/testimonials";
+@import "./sections/bottomSignUp";
+@import "./sections/footer";
+
+//Importing media queries
+@import "./sections/media";

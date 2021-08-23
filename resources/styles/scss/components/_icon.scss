@@ -1,0 +1,24 @@
+.icon {
+  text-align: center;
+  width: 350px;
+  margin: 5rem 0;
+
+  i {    
+    font-size: 4rem;
+    margin: 1rem 0;
+    color: $primary;
+  }
+
+  h2 {
+    padding: 0.5rem;
+  }
+}
+
+.social {
+
+  i {
+    font-size: 2rem;
+    color: $primary;
+    padding: 0 1rem;
+  }
+}

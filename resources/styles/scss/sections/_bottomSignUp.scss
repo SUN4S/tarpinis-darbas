@@ -1,0 +1,22 @@
+.bottomsignup {
+  @include flex-center;
+  text-align: center;
+  flex-wrap: wrap;
+  height: 20vh;
+  background-image: url("../../images/bg-masthead.jpg");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  align-content: center;
+  gap: 2rem;
+  
+  .bottomup {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    .btn {
+      padding: 0.5rem 2rem;
+    }
+  }
+}

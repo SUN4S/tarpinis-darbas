@@ -1,0 +1,16 @@
+.btn {
+  background-color: $primary;
+  list-style: none;
+  padding: 0.5rem 1rem;
+  border-radius: 3px;
+  color: #FFF;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    box-shadow: 0 0 2px black;
+  }
+}
