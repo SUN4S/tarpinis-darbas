@@ -263,15 +263,6 @@ header a {
   color: #0d6efd;
 }
 
-@media only screen and (max-width: 480px) {
-  .signup {
-    height: 90vh;
-  }
-  .bottomsignup {
-    height: 50vh;
-  }
-}
-
 @media only screen and (max-width: 768px) {
   .signup h1 {
     width: 90%;
@@ -335,6 +326,15 @@ header a {
   }
   .footer .social {
     padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .signup {
+    height: 90vh;
+  }
+  .bottomsignup {
+    height: 50vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
