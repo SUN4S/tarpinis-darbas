@@ -96,6 +96,7 @@ input {
 }
 
 header {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   width: 100%;
@@ -262,7 +263,16 @@ header a {
   color: #0d6efd;
 }
 
-@media all and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
+  .signup {
+    height: 90vh;
+  }
+  .bottomsignup {
+    height: 50vh;
+  }
+}
+
+@media only screen and (max-width: 768px) {
   .signup h1 {
     width: 90%;
   }
